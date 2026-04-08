@@ -1,5 +1,5 @@
 # HTML-Lecture
 
-git add .
-git commit -m "update"
+git add . <br>
+git commit -m "update" <br>
 git push
