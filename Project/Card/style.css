@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(164, 163, 163, 0.31);
+
+}
+.card{
+    background-color: #fff;
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.card span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(246, 6, 6, 0.268);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card span .bx{
+    font-size: 22px;
+    font-weight: 100;
+    color: maroon;
+}
+
+.card .heading{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card .para{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: grey;
+    word-break: break-all;
+}
+
+.btns{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.btns .btn{
+    width: 100%;
+    padding: 9px 0;
+    font-family: "Poppins";
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btns .btn1{
+    background-color:  #dc2626;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-weight: 500;
+}
+.btns .btn2{
+    background-color:  #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    color: #222;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+}
+.btns .btn:active{
+    transform: scale(0.9);
+}
+.btns .btn:hover{
+    opacity: 0.7;
+}
