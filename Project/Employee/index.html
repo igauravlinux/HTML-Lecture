@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Employee Management System</title>
+    </head>
+    <style>
+        body{
+            font-family: "Poppins";
+        }
+    </style>
+    <body >
+
+        <h1>Employee Managment System</h1>
+
+        <form>
+
+            <label>Employee Id: </label>
+            <input type="number" required>
+
+            <br>
+
+            <label>Employee Name: </label>
+            <input type="text" required>
+
+            <br>
+
+            <label>Employee Email: </label>
+            <input type="email" required>
+
+            <br>
+
+            <label>Password: </label>
+            <input type="password" maxlength="10">
+
+            <br>
+
+            <label>Address: </label>
+            <textarea name="address" rows="5" cols="40" placeholder="Enter Address: "></textarea>
+
+            <br>
+
+            <label>Gender: </label>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male </label>
+
+            <input type="radio" id="female" name="gender" value="femal" required>
+            <label for="male">Female </label>
+
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="male">Others </label>
+
+            <br>
+
+            <label for="city">City</label>
+
+            <select name="city" id="city">
+                <option value="Patna" selected>Patna</option>
+                <option value="Delhi" >Delhi</option>
+                <option value="Kolkata" >Kolkata</option>
+                <option value="Mumbai" >Mumbai</option>
+                <option value="Madhya Pradesh" >Madhya Pradesh</option>
+            </select>
+
+            <label for="qualification">Qualification: </label>
+            <input type="text" id="qualification" placeholder="Enter Qualification" required>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+    </body>
+</html>

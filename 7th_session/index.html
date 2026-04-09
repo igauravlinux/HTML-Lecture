@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Form</title>
+</head>
+<body>
+
+
+    <form action="../Project/Card/main.html" method="get" target="_blank">
+
+        <!-- Single Line text input controls and their attributes-->
+
+        <label for="">First Name: </label>
+        <input type="text" name="first-name" size="30">
+
+        <label for="">Last Name : </label>
+        <input type="text" name="last-name" size="30" maxlength="5">
+
+        <hr>
+
+        <!-- Password Input Controls -->
+
+        <label for="">User Id: </label>
+        <input type="text" name="user_id">
+
+        <label for="">Password: </label>
+        <input type="password" name="Password">
+
+        <hr>
+
+        <!-- Multi-Line Text Input Controls -->
+
+        <label for="">Description: </label>
+        <textarea name="description" rows="5" cols="50">Enter Discription here: </textarea>
+
+        <hr>
+
+        <!-- checkbox control -->
+
+        <label for="">Physics</label>
+        <input style="accent-color: red;" type="checkbox" name="physics" value="on" checked>
+
+        <label for="">Math</label>
+        <input style="accent-color: red;" type="checkbox" name="math" value="on">
+
+        <hr>
+        
+        <!-- Select box control -->
+
+        <select name="Citys">
+            <option value="Patna" selected>Patna</option>
+            <option value="Aara">Aara</option>
+            <option value="Chhapra">Chhapra</option>
+            <option value="GopalGanj">GopalGanj</option>
+        </select>
+
+        <hr>
+
+        <!-- file upload box -->
+
+        <label for="">Choose a picture: </label>
+        <input type="file" name="fileupload">
+
+        <hr>
+
+        <!-- Buttons control -->
+         <input type="submit" name="submit" value="submit">
+
+         <input type="reset" name="reset" value="reset">
+
+         <input type="button" name="ok" value="ok">
+
+         <hr>
+
+         <!-- Hidden form control -->
+          <input type="hidden" name="pagename" value="10">
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>
